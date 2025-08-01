@@ -517,11 +517,11 @@ body {
 }
 
 .services-grid {
-  margin-left: 150px;
-  margin-Right: 150px;
+  margin-left: 100px;
+  margin-Right: 80px;
   display: grid;
   grid-template-columns: repeat(3, 2fr); /* 3 per row */
-  gap: 40px 10px; /* vertical gap, horizontal gap */
+  gap: 50px 30px; /* vertical gap, horizontal gap */
   justify-items: center; /* center items horizontally */
 }
 
