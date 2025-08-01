@@ -517,7 +517,7 @@ body {
 }
 
 .services-grid {
-  margin-left: 100px;
+  margin-left: 80px;
   margin-Right: 80px;
   display: grid;
   grid-template-columns: repeat(3, 2fr); /* 3 per row */
