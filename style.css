@@ -139,7 +139,7 @@ body {
 }
 
 .hero-left h1 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 20px;
   line-height: 1.4;
 }
@@ -1561,3 +1561,4 @@ body {
   color: #00ffe0;
   text-decoration: none;
 }
+
