@@ -24,8 +24,11 @@ serviceCards.forEach(card => cardObserver.observe(card));
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
 
+// Show the first slide
+slides[currentSlide].classList.add('active');
+
 function showNextSlide() {
-  slides.forEach(slide => slide.classList.remove('active'));
+  slides[currentSlide].classList.remove('active');
   currentSlide = (currentSlide + 1) % slides.length;
   slides[currentSlide].classList.add('active');
 }
@@ -110,3 +113,9 @@ const images = document.querySelectorAll(".arc-img");
   }
 
   setInterval(rotateArcImages, 3000);
+
+
+  document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".nav-links").classList.toggle("active");
+  });
+
