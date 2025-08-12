@@ -16,6 +16,7 @@
   <div class="logo">
     <a href="#" class="logo-text">Stackly</a>
   </div>
+   <button class="menu-toggle">&#9776;</button>
     <nav>
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
@@ -524,6 +525,12 @@
   </div>
 </footer>
 
+<script>
+  document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".nav-links").classList.toggle("active");
+  });
+</script>
+
 
 
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
@@ -538,4 +545,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
